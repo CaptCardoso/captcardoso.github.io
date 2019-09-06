@@ -1,0 +1,33 @@
+body {
+	height: 100%
+	width:100%;
+}
+.container-fluid{
+	display:flex;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("landing.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
+
+.horizontal-container{
+	display: flex;
+	flex-direction: row;
+
+}	
+
+.moto{
+	font-size:30px;
+	color: black;
+	padding-bottom: 50px
+	
+}
+
+.cta-primary{
+	
+}
